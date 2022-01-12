@@ -1,0 +1,9 @@
+﻿<h1>PresentAllStudent</h1>
+@using WebStudentApp.Models
+@{
+
+    foreach (Student item in ViewBag.Array)
+    {
+        <h1>@item.firstName</h1>
+    }
+}
